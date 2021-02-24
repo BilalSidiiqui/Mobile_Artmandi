@@ -3,13 +3,13 @@ import { createAppContainer} from 'react-navigation';
 import HOME from '../screens/Home';
 import LOGIN from '../screens/Login';
 import SIGNUP from '../screens/Resgister';
+import ONLOAD from '../screens/Onload';
 
 
 const screens = {
-    
-    LOGIN : {screen:LOGIN},
-    HOME : { screen:HOME},
-
+    ONLOAD :{ screen : ONLOAD },
+    HOME : { screen: HOME},
+    LOGIN :{ screen : LOGIN},
     SIGNUP : {screen : SIGNUP},
 }
 
